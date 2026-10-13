@@ -1,6 +1,6 @@
 # UI test report v2 – MiniShop
 
-Team: [Jevgeni Pavlov ja Sergey Maksimov] · Repo: [] · Branch: `ui-v2` · CI run: [ссылка на Actions]
+Team: [Jevgeni Pavlov ja Sergey Maksimov] · Repo: [https://github.com/jevgeni270/ulesane] · Branch: `ui-v2` · CI run: [ссылка на Actions]
 
 ## 1. Maintenance (v1 → v2)
 
