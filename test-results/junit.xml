@@ -1,72 +1,320 @@
-<testsuites id="" name="" tests="10" failures="0" skipped="0" errors="0" time="10.053756">
-<testsuite name="shop.ui.spec.ts" timestamp="2026-10-09T08:05:54.162Z" hostname="ui" tests="10" failures="0" skipped="0" time="7.084" errors="0">
-<testcase name="UI-01 products page shows all six products" classname="shop.ui.spec.ts" time="0.677">
+<testsuites id="" name="" tests="44" failures="0" skipped="0" errors="0" time="26.858490999999997">
+<testsuite name="flaky.ui.spec.ts" timestamp="2026-10-13T07:53:34.924Z" hostname="ui" tests="1" failures="0" skipped="0" time="1.966" errors="0">
+<testcase name="FLAKY-01 order confirmation is waited for with a web-first assertion" classname="flaky.ui.spec.ts" time="1.966">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|shop.ui-UI-01-products-page-shows-all-six-products-ui/trace.zip]]
+[[ATTACHMENT|flaky.ui-FLAKY-01-order-co-20f8a--with-a-web-first-assertion-ui/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="UI-02 searching Mouse shows Wireless Mouse" classname="shop.ui.spec.ts" time="0.653">
+</testsuite>
+<testsuite name="shop.ui.spec.ts" timestamp="2026-10-13T07:53:34.924Z" hostname="ui" tests="10" failures="0" skipped="0" time="4.472" errors="0">
+<testcase name="UI-01 products page shows 6 products" classname="shop.ui.spec.ts" time="0.26">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|shop.ui-UI-02-searching-Mouse-shows-Wireless-Mouse-ui/trace.zip]]
+[[ATTACHMENT|shop.ui-UI-01-products-page-shows-6-products-ui/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="UI-03 lowercase search finds Wireless Mouse" classname="shop.ui.spec.ts" time="0.519">
+<testcase name="UI-02 search filters products without case sensitivity" classname="shop.ui.spec.ts" time="0.285">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|shop.ui-UI-03-lowercase-search-finds-Wireless-Mouse-ui/trace.zip]]
+[[ATTACHMENT|shop.ui-UI-02-search-filte-74763-ts-without-case-sensitivity-ui/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="UI-04 adding a product updates cart count" classname="shop.ui.spec.ts" time="0.82">
+<testcase name="UI-03 search with no matches shows zero products" classname="shop.ui.spec.ts" time="0.276">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|shop.ui-UI-04-adding-a-product-updates-cart-count-ui/trace.zip]]
+[[ATTACHMENT|shop.ui-UI-03-search-with-no-matches-shows-zero-products-ui/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="UI-05 cart shows one row and the correct total" classname="shop.ui.spec.ts" time="0.419">
+<testcase name="UI-04 adding a product increases the basket badge to 1" classname="shop.ui.spec.ts" time="0.292">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|shop.ui-UI-05-cart-shows-one-row-and-the-correct-total-ui/trace.zip]]
+[[ATTACHMENT|shop.ui-UI-04-adding-a-pro-3f589-eases-the-basket-badge-to-1-ui/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="UI-06 quantity two doubles the cart total" classname="shop.ui.spec.ts" time="0.512">
+<testcase name="UI-05 basket shows the selected product" classname="shop.ui.spec.ts" time="0.378">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|shop.ui-UI-06-quantity-two-doubles-the-cart-total-ui/trace.zip]]
+[[ATTACHMENT|shop.ui-UI-05-basket-shows-the-selected-product-ui/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="UI-07 removing an item empties the cart" classname="shop.ui.spec.ts" time="0.549">
+<testcase name="UI-06 checkout rejects an invalid email address" classname="shop.ui.spec.ts" time="0.478">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|shop.ui-UI-07-removing-an-item-empties-the-cart-ui/trace.zip]]
+[[ATTACHMENT|shop.ui-UI-06-checkout-rejects-an-invalid-email-address-ui/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="UI-08 empty checkout shows three validation errors" classname="shop.ui.spec.ts" time="0.616">
+<testcase name="UI-07 empty basket message is shown after removing the only product" classname="shop.ui.spec.ts" time="0.405">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|shop.ui-UI-08-empty-checkout-shows-three-validation-errors-ui/trace.zip]]
+[[ATTACHMENT|shop.ui-UI-07-empty-basket-0ab04-r-removing-the-only-product-ui/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="UI-09 invalid email address is rejected" classname="shop.ui.spec.ts" time="0.68">
+<testcase name="UI-08 checkout rejects a missing full name" classname="shop.ui.spec.ts" time="0.432">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|shop.ui-UI-09-invalid-email-address-is-rejected-ui/trace.zip]]
+[[ATTACHMENT|shop.ui-UI-08-checkout-rejects-a-missing-full-name-ui/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="UI-10 valid order shows confirmation and empties cart" classname="shop.ui.spec.ts" time="1.639">
+<testcase name="UI-09 checkout rejects a missing delivery address" classname="shop.ui.spec.ts" time="0.415">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|shop.ui-UI-10-valid-order--976f2-nfirmation-and-empties-cart-ui/trace.zip]]
+[[ATTACHMENT|shop.ui-UI-09-checkout-rejects-a-missing-delivery-address-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-10 valid checkout confirms the order" classname="shop.ui.spec.ts" time="1.251">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-10-valid-checkout-confirms-the-order-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="shop2.ui.spec.ts" timestamp="2026-10-13T07:53:34.924Z" hostname="ui" tests="11" failures="0" skipped="0" time="4.491" errors="0">
+<testcase name="sorting › UI-11 REQ-UI-08 cheapest product is first when sorting low to high" classname="shop2.ui.spec.ts" time="0.277">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-sorting-UI-11-REQ-c3de2-st-when-sorting-low-to-high-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="sorting › UI-12 REQ-UI-08 most expensive product is first when sorting high to low" classname="shop2.ui.spec.ts" time="0.261">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-sorting-UI-12-REQ-947ee-st-when-sorting-high-to-low-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="quantity › UI-13 REQ-UI-09 quantity three updates line total and total" classname="shop2.ui.spec.ts" time="0.407">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-quantity-UI-13-RE-8a68c-pdates-line-total-and-total-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="quantity › UI-14 REQ-UI-09 quantity cannot be less than one" classname="shop2.ui.spec.ts" time="0.406">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-quantity-UI-14-RE-6e8bf-ity-cannot-be-less-than-one-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="discount codes › UI-15 REQ-UI-10 SAVE10 discounts a single-product basket by 10 percent" classname="shop2.ui.spec.ts" time="0.434">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-discount-codes-UI-0dfec-roduct-basket-by-10-percent-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="discount codes › UI-16 REQ-UI-10 SAVE10 discounts the whole basket" classname="shop2.ui.spec.ts" time="0.427">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-discount-codes-UI-af505--discounts-the-whole-basket-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="discount codes › UI-17 REQ-UI-11 unknown discount code shows an error and does not change the total" classname="shop2.ui.spec.ts" time="0.413">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-discount-codes-UI-8e2b8-d-does-not-change-the-total-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-18 email &quot;plainaddress&quot; is rejected (missing-at-and-domain)" classname="shop2.ui.spec.ts" time="0.454">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-UI-18-email-plain-d3ba4-cted-missing-at-and-domain--ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-18 email &quot;mari@&quot; is rejected (missing-domain)" classname="shop2.ui.spec.ts" time="0.452">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-UI-18-email-mari-is-rejected-missing-domain--ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-18 email &quot;@example.com&quot; is rejected (missing-local-part)" classname="shop2.ui.spec.ts" time="0.437">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-UI-18-email-examp-3a7ab-ejected-missing-local-part--ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-18 email &quot;mari@example&quot; is rejected (missing-domain-suffix)" classname="shop2.ui.spec.ts" time="0.523">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-UI-18-email-mari--df701-cted-missing-domain-suffix--ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="flaky.ui.spec.ts" timestamp="2026-10-13T07:53:34.924Z" hostname="mobile" tests="1" failures="0" skipped="0" time="1.482" errors="0">
+<testcase name="FLAKY-01 order confirmation is waited for with a web-first assertion" classname="flaky.ui.spec.ts" time="1.482">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|flaky.ui-FLAKY-01-order-co-20f8a--with-a-web-first-assertion-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="shop.ui.spec.ts" timestamp="2026-10-13T07:53:34.924Z" hostname="mobile" tests="10" failures="0" skipped="0" time="5.241" errors="0">
+<testcase name="UI-01 products page shows 6 products" classname="shop.ui.spec.ts" time="0.311">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-01-products-page-shows-6-products-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-02 search filters products without case sensitivity" classname="shop.ui.spec.ts" time="0.292">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-02-search-filte-74763-ts-without-case-sensitivity-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-03 search with no matches shows zero products" classname="shop.ui.spec.ts" time="0.308">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-03-search-with-no-matches-shows-zero-products-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-04 adding a product increases the basket badge to 1" classname="shop.ui.spec.ts" time="0.332">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-04-adding-a-pro-3f589-eases-the-basket-badge-to-1-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-05 basket shows the selected product" classname="shop.ui.spec.ts" time="0.396">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-05-basket-shows-the-selected-product-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-06 checkout rejects an invalid email address" classname="shop.ui.spec.ts" time="0.578">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-06-checkout-rejects-an-invalid-email-address-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-07 empty basket message is shown after removing the only product" classname="shop.ui.spec.ts" time="0.436">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-07-empty-basket-0ab04-r-removing-the-only-product-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-08 checkout rejects a missing full name" classname="shop.ui.spec.ts" time="0.63">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-08-checkout-rejects-a-missing-full-name-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-09 checkout rejects a missing delivery address" classname="shop.ui.spec.ts" time="0.559">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-09-checkout-rejects-a-missing-delivery-address-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-10 valid checkout confirms the order" classname="shop.ui.spec.ts" time="1.399">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-10-valid-checkout-confirms-the-order-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="shop2.ui.spec.ts" timestamp="2026-10-13T07:53:34.924Z" hostname="mobile" tests="11" failures="0" skipped="0" time="5.399" errors="0">
+<testcase name="sorting › UI-11 REQ-UI-08 cheapest product is first when sorting low to high" classname="shop2.ui.spec.ts" time="0.313">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-sorting-UI-11-REQ-c3de2-st-when-sorting-low-to-high-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="sorting › UI-12 REQ-UI-08 most expensive product is first when sorting high to low" classname="shop2.ui.spec.ts" time="0.352">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-sorting-UI-12-REQ-947ee-st-when-sorting-high-to-low-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="quantity › UI-13 REQ-UI-09 quantity three updates line total and total" classname="shop2.ui.spec.ts" time="0.489">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-quantity-UI-13-RE-8a68c-pdates-line-total-and-total-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="quantity › UI-14 REQ-UI-09 quantity cannot be less than one" classname="shop2.ui.spec.ts" time="0.437">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-quantity-UI-14-RE-6e8bf-ity-cannot-be-less-than-one-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="discount codes › UI-15 REQ-UI-10 SAVE10 discounts a single-product basket by 10 percent" classname="shop2.ui.spec.ts" time="0.603">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-discount-codes-UI-0dfec-roduct-basket-by-10-percent-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="discount codes › UI-16 REQ-UI-10 SAVE10 discounts the whole basket" classname="shop2.ui.spec.ts" time="0.545">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-discount-codes-UI-af505--discounts-the-whole-basket-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="discount codes › UI-17 REQ-UI-11 unknown discount code shows an error and does not change the total" classname="shop2.ui.spec.ts" time="0.453">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-discount-codes-UI-8e2b8-d-does-not-change-the-total-mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-18 email &quot;plainaddress&quot; is rejected (missing-at-and-domain)" classname="shop2.ui.spec.ts" time="0.577">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-UI-18-email-plain-d3ba4-cted-missing-at-and-domain--mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-18 email &quot;mari@&quot; is rejected (missing-domain)" classname="shop2.ui.spec.ts" time="0.543">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-UI-18-email-mari-is-rejected-missing-domain--mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-18 email &quot;@example.com&quot; is rejected (missing-local-part)" classname="shop2.ui.spec.ts" time="0.54">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-UI-18-email-examp-3a7ab-ejected-missing-local-part--mobile/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-18 email &quot;mari@example&quot; is rejected (missing-domain-suffix)" classname="shop2.ui.spec.ts" time="0.547">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop2.ui-UI-18-email-mari--df701-cted-missing-domain-suffix--mobile/trace.zip]]
 ]]>
 </system-out>
 </testcase>

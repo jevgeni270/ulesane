@@ -88,18 +88,3 @@ npm install
 npx playwright install chromium
 npm test
 ```
-
-
-## MiniShop UI test assignment – completed files
-
-The following assignment files are included:
-- `ui-scenarios.md` — 10 UI scenarios based on the handout.
-- `shop.ui.spec.ts` — 10 Playwright UI tests (UI-01 to UI-10).
-- `shop.page.ts` — Page Object used by UI-06 and UI-10.
-- `shop.js` — all three intentional defects fixed (case-insensitive search, quantity-aware grand total, email format validation).
-- `ui-report.md` — report, defect descriptions, locator choices and additional test ideas.
-
-## Verify before submitting
-
-Run `npm install`, then `npx playwright install chromium`, then `npx playwright test --project=ui`.
-Before sending the assignment, replace the placeholders in `ui-report.md` with both team members' names and your actual GitHub repository URL. Include screenshots of the successful `10 passed` run and the HTML report as requested in the handout.
