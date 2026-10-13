@@ -4,7 +4,8 @@
       "/usr/local/share/nvm/versions/node/v24.21.0/bin/node",
       "/workspaces/ulesane/node_modules/.bin/playwright",
       "test",
-      "--project=ui"
+      "--project=ui",
+      "--project=mobile"
     ],
     "configFile": "/workspaces/ulesane/playwright.config.ts",
     "rootDir": "/workspaces/ulesane",
@@ -47,6 +48,22 @@
         },
         "id": "ui",
         "name": "ui",
+        "testDir": "/workspaces/ulesane",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.ui\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/workspaces/ulesane/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile",
+        "name": "mobile",
         "testDir": "/workspaces/ulesane",
         "testIgnore": [],
         "testMatch": [
@@ -110,6 +127,43 @@
         "dependencies": [],
         "ignoreSnapshots": false,
         "__projectId": "ui"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/workspaces/ulesane/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "mobile",
+        "testDir": "/workspaces/ulesane",
+        "snapshotDir": "/workspaces/ulesane",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 30000,
+        "use": {
+          "trace": "on",
+          "screenshot": "only-on-failure",
+          "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Mobile Safari/537.36",
+          "viewport": {
+            "width": 412,
+            "height": 839
+          },
+          "screen": {
+            "width": 412,
+            "height": 915
+          },
+          "deviceScaleFactor": 2.625,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "chromium",
+          "baseURL": "http://localhost:4000"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "mobile"
       }
     ],
     "quiet": false,
@@ -151,13 +205,90 @@
   },
   "suites": [
     {
+      "title": "flaky.ui.spec.ts",
+      "file": "flaky.ui.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "FLAKY-01 order confirmation is waited for with a web-first assertion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ui",
+              "projectName": "ui",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1966,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:35.403Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/flaky.ui-FLAKY-01-order-co-20f8a--with-a-web-first-assertion-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1482,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:47.814Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/flaky.ui-FLAKY-01-order-co-20f8a--with-a-web-first-assertion-mobile/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "675f9d3007c9ca152a2b-31c215daa7abe738e544",
+          "file": "flaky.ui.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
       "title": "shop.ui.spec.ts",
       "file": "shop.ui.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "UI-01 products page shows all six products",
+          "title": "UI-01 products page shows 6 products",
           "ok": true,
           "tags": [],
           "tests": [
@@ -172,18 +303,47 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 677,
+                  "duration": 260,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-09T08:05:54.672Z",
+                  "startTime": "2026-10-13T07:53:37.602Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-01-products-page-shows-all-six-products-ui/trace.zip"
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-01-products-page-shows-6-products-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 311,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:49.499Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-01-products-page-shows-6-products-mobile/trace.zip"
                     }
                   ]
                 }
@@ -191,13 +351,13 @@
               "status": "expected"
             }
           ],
-          "id": "6b3144ed7d7800fc5be2-9dde83bf28a423b277a4",
+          "id": "6b3144ed7d7800fc5be2-49ba19dc02a53e620220",
           "file": "shop.ui.spec.ts",
-          "line": 10,
+          "line": 3,
           "column": 5
         },
         {
-          "title": "UI-02 searching Mouse shows Wireless Mouse",
+          "title": "UI-02 search filters products without case sensitivity",
           "ok": true,
           "tags": [],
           "tests": [
@@ -212,18 +372,47 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 653,
+                  "duration": 285,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-09T08:05:56.387Z",
+                  "startTime": "2026-10-13T07:53:37.916Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-02-searching-Mouse-shows-Wireless-Mouse-ui/trace.zip"
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-02-search-filte-74763-ts-without-case-sensitivity-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 292,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:49.841Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-02-search-filte-74763-ts-without-case-sensitivity-mobile/trace.zip"
                     }
                   ]
                 }
@@ -231,13 +420,13 @@
               "status": "expected"
             }
           ],
-          "id": "6b3144ed7d7800fc5be2-e0e9c022601c35ee1a91",
+          "id": "6b3144ed7d7800fc5be2-0840d8a14161bf4525f3",
           "file": "shop.ui.spec.ts",
-          "line": 17,
+          "line": 8,
           "column": 5
         },
         {
-          "title": "UI-03 lowercase search finds Wireless Mouse",
+          "title": "UI-03 search with no matches shows zero products",
           "ok": true,
           "tags": [],
           "tests": [
@@ -252,18 +441,47 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 519,
+                  "duration": 276,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-09T08:05:57.143Z",
+                  "startTime": "2026-10-13T07:53:38.235Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-03-lowercase-search-finds-Wireless-Mouse-ui/trace.zip"
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-03-search-with-no-matches-shows-zero-products-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 308,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:50.181Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-03-search-with-no-matches-shows-zero-products-mobile/trace.zip"
                     }
                   ]
                 }
@@ -271,13 +489,151 @@
               "status": "expected"
             }
           ],
-          "id": "6b3144ed7d7800fc5be2-661bb6700050619c1d07",
+          "id": "6b3144ed7d7800fc5be2-72d24918311beca60472",
+          "file": "shop.ui.spec.ts",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "UI-04 adding a product increases the basket badge to 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ui",
+              "projectName": "ui",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 292,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:38.538Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-04-adding-a-pro-3f589-eases-the-basket-badge-to-1-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 332,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:50.527Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-04-adding-a-pro-3f589-eases-the-basket-badge-to-1-mobile/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b3144ed7d7800fc5be2-a4654528668ba90afe02",
+          "file": "shop.ui.spec.ts",
+          "line": 20,
+          "column": 5
+        },
+        {
+          "title": "UI-05 basket shows the selected product",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ui",
+              "projectName": "ui",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 378,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:38.857Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-05-basket-shows-the-selected-product-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 396,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:50.892Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-05-basket-shows-the-selected-product-mobile/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b3144ed7d7800fc5be2-c3fee8818062174e6bba",
           "file": "shop.ui.spec.ts",
           "line": 25,
           "column": 5
         },
         {
-          "title": "UI-04 adding a product updates cart count",
+          "title": "UI-06 checkout rejects an invalid email address",
           "ok": true,
           "tags": [],
           "tests": [
@@ -292,18 +648,47 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 820,
+                  "duration": 478,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-09T08:05:57.722Z",
+                  "startTime": "2026-10-13T07:53:39.265Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-04-adding-a-product-updates-cart-count-ui/trace.zip"
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-06-checkout-rejects-an-invalid-email-address-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 578,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:51.320Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-06-checkout-rejects-an-invalid-email-address-mobile/trace.zip"
                     }
                   ]
                 }
@@ -311,13 +696,13 @@
               "status": "expected"
             }
           ],
-          "id": "6b3144ed7d7800fc5be2-147edd7a73352a1ebd25",
+          "id": "6b3144ed7d7800fc5be2-c4019383284124546885",
           "file": "shop.ui.spec.ts",
           "line": 32,
           "column": 5
         },
         {
-          "title": "UI-05 cart shows one row and the correct total",
+          "title": "UI-07 empty basket message is shown after removing the only product",
           "ok": true,
           "tags": [],
           "tests": [
@@ -332,18 +717,47 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 419,
+                  "duration": 405,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-09T08:05:58.609Z",
+                  "startTime": "2026-10-13T07:53:39.783Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-05-cart-shows-one-row-and-the-correct-total-ui/trace.zip"
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-07-empty-basket-0ab04-r-removing-the-only-product-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 436,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:51.969Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-07-empty-basket-0ab04-r-removing-the-only-product-mobile/trace.zip"
                     }
                   ]
                 }
@@ -351,13 +765,13 @@
               "status": "expected"
             }
           ],
-          "id": "6b3144ed7d7800fc5be2-9585583e2c09eace1a17",
+          "id": "6b3144ed7d7800fc5be2-06700b46aaaf71d0a570",
           "file": "shop.ui.spec.ts",
-          "line": 38,
+          "line": 39,
           "column": 5
         },
         {
-          "title": "UI-06 quantity two doubles the cart total",
+          "title": "UI-08 checkout rejects a missing full name",
           "ok": true,
           "tags": [],
           "tests": [
@@ -372,18 +786,47 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 512,
+                  "duration": 432,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-09T08:05:59.071Z",
+                  "startTime": "2026-10-13T07:53:40.232Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-06-quantity-two-doubles-the-cart-total-ui/trace.zip"
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-08-checkout-rejects-a-missing-full-name-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 630,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:52.440Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-08-checkout-rejects-a-missing-full-name-mobile/trace.zip"
                     }
                   ]
                 }
@@ -391,13 +834,13 @@
               "status": "expected"
             }
           ],
-          "id": "6b3144ed7d7800fc5be2-4aae79d4c31f08c225b8",
+          "id": "6b3144ed7d7800fc5be2-80c0b0db93978cbb4b01",
           "file": "shop.ui.spec.ts",
-          "line": 47,
+          "line": 46,
           "column": 5
         },
         {
-          "title": "UI-07 removing an item empties the cart",
+          "title": "UI-09 checkout rejects a missing delivery address",
           "ok": true,
           "tags": [],
           "tests": [
@@ -412,18 +855,47 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 549,
+                  "duration": 415,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-09T08:05:59.635Z",
+                  "startTime": "2026-10-13T07:53:40.720Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-07-removing-an-item-empties-the-cart-ui/trace.zip"
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-09-checkout-rejects-a-missing-delivery-address-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 559,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:53.133Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-09-checkout-rejects-a-missing-delivery-address-mobile/trace.zip"
                     }
                   ]
                 }
@@ -431,13 +903,13 @@
               "status": "expected"
             }
           ],
-          "id": "6b3144ed7d7800fc5be2-0bf581cf013431ae6c7f",
+          "id": "6b3144ed7d7800fc5be2-74faab10b4117c2023e0",
           "file": "shop.ui.spec.ts",
-          "line": 58,
+          "line": 53,
           "column": 5
         },
         {
-          "title": "UI-08 empty checkout shows three validation errors",
+          "title": "UI-10 valid checkout confirms the order",
           "ok": true,
           "tags": [],
           "tests": [
@@ -452,18 +924,47 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 616,
+                  "duration": 1251,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-09T08:06:00.231Z",
+                  "startTime": "2026-10-13T07:53:41.164Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-08-empty-checkout-shows-three-validation-errors-ui/trace.zip"
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-10-valid-checkout-confirms-the-order-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1399,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:53.732Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-10-valid-checkout-confirms-the-order-mobile/trace.zip"
                     }
                   ]
                 }
@@ -471,15 +972,94 @@
               "status": "expected"
             }
           ],
-          "id": "6b3144ed7d7800fc5be2-d892c54c0616a656e3e4",
+          "id": "6b3144ed7d7800fc5be2-fc43734a257412357554",
           "file": "shop.ui.spec.ts",
-          "line": 67,
+          "line": 60,
           "column": 5
+        }
+      ]
+    },
+    {
+      "title": "shop2.ui.spec.ts",
+      "file": "shop2.ui.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "UI-18 email \"plainaddress\" is rejected (missing-at-and-domain)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ui",
+              "projectName": "ui",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 454,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:45.260Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop2.ui-UI-18-email-plain-d3ba4-cted-missing-at-and-domain--ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 577,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:58.592Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop2.ui-UI-18-email-plain-d3ba4-cted-missing-at-and-domain--mobile/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "fa0ba1cf6aa7831359c8-6a159e3b2183ba735f3c",
+          "file": "shop2.ui.spec.ts",
+          "line": 77,
+          "column": 7
         },
         {
-          "title": "UI-09 invalid email address is rejected",
+          "title": "UI-18 email \"mari@\" is rejected (missing-domain)",
           "ok": true,
-          "tags": [],
+          "tags": [
+            "\""
+          ],
           "tests": [
             {
               "timeout": 30000,
@@ -492,18 +1072,47 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 680,
+                  "duration": 452,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-09T08:06:00.902Z",
+                  "startTime": "2026-10-13T07:53:45.742Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-09-invalid-email-address-is-rejected-ui/trace.zip"
+                      "path": "/workspaces/ulesane/test-results/shop2.ui-UI-18-email-mari-is-rejected-missing-domain--ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 543,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:59.210Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop2.ui-UI-18-email-mari-is-rejected-missing-domain--mobile/trace.zip"
                     }
                   ]
                 }
@@ -511,15 +1120,17 @@
               "status": "expected"
             }
           ],
-          "id": "6b3144ed7d7800fc5be2-0f27f811d1cd19425a2e",
-          "file": "shop.ui.spec.ts",
-          "line": 76,
-          "column": 5
+          "id": "fa0ba1cf6aa7831359c8-dd04952a71d78c903718",
+          "file": "shop2.ui.spec.ts",
+          "line": 77,
+          "column": 7
         },
         {
-          "title": "UI-10 valid order shows confirmation and empties cart",
+          "title": "UI-18 email \"@example.com\" is rejected (missing-local-part)",
           "ok": true,
-          "tags": [],
+          "tags": [
+            "example.com\""
+          ],
           "tests": [
             {
               "timeout": 30000,
@@ -532,18 +1143,47 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1639,
+                  "duration": 437,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-09T08:06:01.640Z",
+                  "startTime": "2026-10-13T07:53:46.224Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "/workspaces/ulesane/test-results/shop.ui-UI-10-valid-order--976f2-nfirmation-and-empties-cart-ui/trace.zip"
+                      "path": "/workspaces/ulesane/test-results/shop2.ui-UI-18-email-examp-3a7ab-ejected-missing-local-part--ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 540,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:59.784Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop2.ui-UI-18-email-examp-3a7ab-ejected-missing-local-part--mobile/trace.zip"
                     }
                   ]
                 }
@@ -551,19 +1191,619 @@
               "status": "expected"
             }
           ],
-          "id": "6b3144ed7d7800fc5be2-f64a59f342097b2aa407",
-          "file": "shop.ui.spec.ts",
-          "line": 87,
-          "column": 5
+          "id": "fa0ba1cf6aa7831359c8-ce3c8c6dbb2b2fa751f8",
+          "file": "shop2.ui.spec.ts",
+          "line": 77,
+          "column": 7
+        },
+        {
+          "title": "UI-18 email \"mari@example\" is rejected (missing-domain-suffix)",
+          "ok": true,
+          "tags": [
+            "example\""
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ui",
+              "projectName": "ui",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 523,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:53:46.688Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop2.ui-UI-18-email-mari--df701-cted-missing-domain-suffix--ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 547,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:54:00.363Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ulesane/test-results/shop2.ui-UI-18-email-mari--df701-cted-missing-domain-suffix--mobile/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "fa0ba1cf6aa7831359c8-74151529ed64a0f77c2f",
+          "file": "shop2.ui.spec.ts",
+          "line": 77,
+          "column": 7
+        }
+      ],
+      "suites": [
+        {
+          "title": "sorting",
+          "file": "shop2.ui.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "UI-11 REQ-UI-08 cheapest product is first when sorting low to high",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "ui",
+                  "projectName": "ui",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 277,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-13T07:53:42.451Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-sorting-UI-11-REQ-c3de2-st-when-sorting-low-to-high-ui/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 313,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-13T07:53:55.178Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-sorting-UI-11-REQ-c3de2-st-when-sorting-low-to-high-mobile/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fa0ba1cf6aa7831359c8-bf05f8cd294103a2df62",
+              "file": "shop2.ui.spec.ts",
+              "line": 4,
+              "column": 7
+            },
+            {
+              "title": "UI-12 REQ-UI-08 most expensive product is first when sorting high to low",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "ui",
+                  "projectName": "ui",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 261,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-13T07:53:42.753Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-sorting-UI-12-REQ-947ee-st-when-sorting-high-to-low-ui/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 352,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-13T07:53:55.519Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-sorting-UI-12-REQ-947ee-st-when-sorting-high-to-low-mobile/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fa0ba1cf6aa7831359c8-f98942d1e5eddd8eb9fc",
+              "file": "shop2.ui.spec.ts",
+              "line": 10,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "quantity",
+          "file": "shop2.ui.spec.ts",
+          "line": 17,
+          "column": 6,
+          "specs": [
+            {
+              "title": "UI-13 REQ-UI-09 quantity three updates line total and total",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "ui",
+                  "projectName": "ui",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 407,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-13T07:53:43.043Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-quantity-UI-13-RE-8a68c-pdates-line-total-and-total-ui/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 489,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-13T07:53:55.902Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-quantity-UI-13-RE-8a68c-pdates-line-total-and-total-mobile/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fa0ba1cf6aa7831359c8-19451f0178e55570daa5",
+              "file": "shop2.ui.spec.ts",
+              "line": 18,
+              "column": 7
+            },
+            {
+              "title": "UI-14 REQ-UI-09 quantity cannot be less than one",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "ui",
+                  "projectName": "ui",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 406,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-13T07:53:43.476Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-quantity-UI-14-RE-6e8bf-ity-cannot-be-less-than-one-ui/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 437,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-13T07:53:56.421Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-quantity-UI-14-RE-6e8bf-ity-cannot-be-less-than-one-mobile/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fa0ba1cf6aa7831359c8-6606485a427014b8cab8",
+              "file": "shop2.ui.spec.ts",
+              "line": 26,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "discount codes",
+          "file": "shop2.ui.spec.ts",
+          "line": 35,
+          "column": 6,
+          "specs": [
+            {
+              "title": "UI-15 REQ-UI-10 SAVE10 discounts a single-product basket by 10 percent",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "ui",
+                  "projectName": "ui",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 434,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-13T07:53:43.910Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-discount-codes-UI-0dfec-roduct-basket-by-10-percent-ui/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 603,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-13T07:53:56.890Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-discount-codes-UI-0dfec-roduct-basket-by-10-percent-mobile/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fa0ba1cf6aa7831359c8-466fe44066e6cd1223e0",
+              "file": "shop2.ui.spec.ts",
+              "line": 36,
+              "column": 7
+            },
+            {
+              "title": "UI-16 REQ-UI-10 SAVE10 discounts the whole basket",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "ui",
+                  "projectName": "ui",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 427,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "add two different products",
+                          "duration": 175
+                        },
+                        {
+                          "title": "apply SAVE10",
+                          "duration": 83
+                        }
+                      ],
+                      "startTime": "2026-10-13T07:53:44.370Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-discount-codes-UI-af505--discounts-the-whole-basket-ui/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 545,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "add two different products",
+                          "duration": 170
+                        },
+                        {
+                          "title": "apply SAVE10",
+                          "duration": 95
+                        }
+                      ],
+                      "startTime": "2026-10-13T07:53:57.529Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-discount-codes-UI-af505--discounts-the-whole-basket-mobile/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fa0ba1cf6aa7831359c8-bd1085f389b4e89bb62d",
+              "file": "shop2.ui.spec.ts",
+              "line": 45,
+              "column": 7
+            },
+            {
+              "title": "UI-17 REQ-UI-11 unknown discount code shows an error and does not change the total",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "ui",
+                  "projectName": "ui",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 413,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-13T07:53:44.820Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-discount-codes-UI-8e2b8-d-does-not-change-the-total-ui/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 453,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-13T07:53:58.107Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-discount-codes-UI-8e2b8-d-does-not-change-the-total-mobile/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fa0ba1cf6aa7831359c8-a8d7cf9c523d770ee6e6",
+              "file": "shop2.ui.spec.ts",
+              "line": 59,
+              "column": 7
+            }
+          ]
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-09T08:05:53.412Z",
-    "duration": 10053.756,
-    "expected": 10,
+    "startTime": "2026-10-13T07:53:34.174Z",
+    "duration": 26858.490999999998,
+    "expected": 44,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
