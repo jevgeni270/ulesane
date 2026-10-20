@@ -1,7 +1,7 @@
 # Final Test Report – MiniShop
 
-Team: Student 1 & Student 2  
-Repository: minishop-team  
+Team: Jevgeni Pavlov & Sergey Maksimov  
+Repository: 
 
 ## 1. Decision: RELEASABLE – All layers green, 0 open defects
 
