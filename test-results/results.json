@@ -226,12 +226,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1966,
+                  "duration": 3401,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:35.403Z",
+                  "startTime": "2026-10-20T07:38:50.716Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -252,15 +252,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1482,
+                  "duration": 1466,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:47.814Z",
+                  "startTime": "2026-10-20T07:39:36.767Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -303,12 +303,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 260,
+                  "duration": 265,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:37.602Z",
+                  "startTime": "2026-10-20T07:39:03.156Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -329,15 +329,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 311,
+                  "duration": 300,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:49.499Z",
+                  "startTime": "2026-10-20T07:39:38.438Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -372,12 +372,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 285,
+                  "duration": 274,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:37.916Z",
+                  "startTime": "2026-10-20T07:39:03.454Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -398,15 +398,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 292,
+                  "duration": 331,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:49.841Z",
+                  "startTime": "2026-10-20T07:39:38.771Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -441,12 +441,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 276,
+                  "duration": 309,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:38.235Z",
+                  "startTime": "2026-10-20T07:39:03.760Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -467,15 +467,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 308,
+                  "duration": 353,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:50.181Z",
+                  "startTime": "2026-10-20T07:39:39.133Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -510,12 +510,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 292,
+                  "duration": 338,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:38.538Z",
+                  "startTime": "2026-10-20T07:39:04.100Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -536,15 +536,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 332,
+                  "duration": 431,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:50.527Z",
+                  "startTime": "2026-10-20T07:39:39.514Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -579,12 +579,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 378,
+                  "duration": 390,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:38.857Z",
+                  "startTime": "2026-10-20T07:39:04.473Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -605,15 +605,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 396,
+                  "duration": 481,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:50.892Z",
+                  "startTime": "2026-10-20T07:39:39.998Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -648,12 +648,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 478,
+                  "duration": 508,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:39.265Z",
+                  "startTime": "2026-10-20T07:39:04.894Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -674,15 +674,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 578,
+                  "duration": 589,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:51.320Z",
+                  "startTime": "2026-10-20T07:39:40.517Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -717,12 +717,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 405,
+                  "duration": 399,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:39.783Z",
+                  "startTime": "2026-10-20T07:39:05.450Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -743,15 +743,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 436,
+                  "duration": 480,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:51.969Z",
+                  "startTime": "2026-10-20T07:39:41.165Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -786,12 +786,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 432,
+                  "duration": 572,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:40.232Z",
+                  "startTime": "2026-10-20T07:39:05.884Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -812,15 +812,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 630,
+                  "duration": 639,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:52.440Z",
+                  "startTime": "2026-10-20T07:39:41.680Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -855,12 +855,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 415,
+                  "duration": 543,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:40.720Z",
+                  "startTime": "2026-10-20T07:39:06.513Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -881,15 +881,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 559,
+                  "duration": 601,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:53.133Z",
+                  "startTime": "2026-10-20T07:39:42.390Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -924,12 +924,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1251,
+                  "duration": 1365,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:41.164Z",
+                  "startTime": "2026-10-20T07:39:07.087Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -950,15 +950,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1399,
+                  "duration": 1423,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:53.732Z",
+                  "startTime": "2026-10-20T07:39:43.025Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -998,15 +998,15 @@
               "projectName": "ui",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 454,
+                  "duration": 560,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:45.260Z",
+                  "startTime": "2026-10-20T07:39:28.878Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1027,15 +1027,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 7,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 577,
+                  "duration": 704,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:58.592Z",
+                  "startTime": "2026-10-20T07:40:05.814Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1069,15 +1069,15 @@
               "projectName": "ui",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 452,
+                  "duration": 544,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:45.742Z",
+                  "startTime": "2026-10-20T07:39:29.491Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1098,15 +1098,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 7,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 543,
+                  "duration": 651,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:59.210Z",
+                  "startTime": "2026-10-20T07:40:06.582Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1140,15 +1140,15 @@
               "projectName": "ui",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 437,
+                  "duration": 548,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:46.224Z",
+                  "startTime": "2026-10-20T07:39:30.079Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1169,15 +1169,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 7,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 540,
+                  "duration": 578,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:59.784Z",
+                  "startTime": "2026-10-20T07:40:07.299Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1198,7 +1198,7 @@
         },
         {
           "title": "UI-18 email \"mari@example\" is rejected (missing-domain-suffix)",
-          "ok": true,
+          "ok": false,
           "tags": [
             "example\""
           ],
@@ -1211,26 +1211,60 @@
               "projectName": "ui",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 523,
-                  "errors": [],
+                  "status": "failed",
+                  "duration": 5460,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#email-error')\nExpected: \u001b[32m\"Enter a valid email address\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" locator('#email-error') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#email-error')\u001b[22m\n\u001b[2m    14 × locator resolved to <div role=\"alert\" class=\"error\" id=\"email-error\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#email-error')\nExpected: \u001b[32m\"Enter a valid email address\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" locator('#email-error') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#email-error')\u001b[22m\n\u001b[2m    14 × locator resolved to <div role=\"alert\" class=\"error\" id=\"email-error\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n    at /workspaces/ulesane/shop2.ui.spec.ts:81:39",
+                    "location": {
+                      "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                      "column": 39,
+                      "line": 81
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 79 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mopenCart()\u001b[33m;\u001b[39m\n \u001b[90m 80 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mcheckout(\u001b[32m'Mari Maasikas'\u001b[39m\u001b[33m,\u001b[39m email\u001b[33m,\u001b[39m \u001b[32m'Pikk 1, Tallinn'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 81 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39merror(\u001b[32m'email'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Enter a valid email address'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 82 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 83 |\u001b[39m }\n \u001b[90m 84 |\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                        "column": 39,
+                        "line": 81
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#email-error')\nExpected: \u001b[32m\"Enter a valid email address\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" locator('#email-error') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#email-error')\u001b[22m\n\u001b[2m    14 × locator resolved to <div role=\"alert\" class=\"error\" id=\"email-error\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 79 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mopenCart()\u001b[33m;\u001b[39m\n \u001b[90m 80 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mcheckout(\u001b[32m'Mari Maasikas'\u001b[39m\u001b[33m,\u001b[39m email\u001b[33m,\u001b[39m \u001b[32m'Pikk 1, Tallinn'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 81 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39merror(\u001b[32m'email'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Enter a valid email address'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 82 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 83 |\u001b[39m }\n \u001b[90m 84 |\u001b[39m\u001b[0m\n\u001b[2m    at /workspaces/ulesane/shop2.ui.spec.ts:81:39\u001b[22m"
+                    }
+                  ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:53:46.688Z",
+                  "startTime": "2026-10-20T07:39:30.661Z",
                   "annotations": [],
                   "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/workspaces/ulesane/test-results/shop2.ui-UI-18-email-mari--df701-cted-missing-domain-suffix--ui/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/workspaces/ulesane/test-results/shop2.ui-UI-18-email-mari--df701-cted-missing-domain-suffix--ui/error-context.md"
+                    },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
                       "path": "/workspaces/ulesane/test-results/shop2.ui-UI-18-email-mari--df701-cted-missing-domain-suffix--ui/trace.zip"
                     }
-                  ]
+                  ],
+                  "errorLocation": {
+                    "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                    "column": 39,
+                    "line": 81
+                  }
                 }
               ],
-              "status": "expected"
+              "status": "unexpected"
             },
             {
               "timeout": 30000,
@@ -1240,26 +1274,60 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 7,
                   "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 547,
-                  "errors": [],
+                  "status": "failed",
+                  "duration": 5608,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#email-error')\nExpected: \u001b[32m\"Enter a valid email address\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" locator('#email-error') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#email-error')\u001b[22m\n\u001b[2m    14 × locator resolved to <div role=\"alert\" class=\"error\" id=\"email-error\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#email-error')\nExpected: \u001b[32m\"Enter a valid email address\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" locator('#email-error') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#email-error')\u001b[22m\n\u001b[2m    14 × locator resolved to <div role=\"alert\" class=\"error\" id=\"email-error\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n    at /workspaces/ulesane/shop2.ui.spec.ts:81:39",
+                    "location": {
+                      "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                      "column": 39,
+                      "line": 81
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 79 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mopenCart()\u001b[33m;\u001b[39m\n \u001b[90m 80 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mcheckout(\u001b[32m'Mari Maasikas'\u001b[39m\u001b[33m,\u001b[39m email\u001b[33m,\u001b[39m \u001b[32m'Pikk 1, Tallinn'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 81 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39merror(\u001b[32m'email'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Enter a valid email address'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 82 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 83 |\u001b[39m }\n \u001b[90m 84 |\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                        "column": 39,
+                        "line": 81
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#email-error')\nExpected: \u001b[32m\"Enter a valid email address\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" locator('#email-error') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#email-error')\u001b[22m\n\u001b[2m    14 × locator resolved to <div role=\"alert\" class=\"error\" id=\"email-error\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 79 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mopenCart()\u001b[33m;\u001b[39m\n \u001b[90m 80 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mcheckout(\u001b[32m'Mari Maasikas'\u001b[39m\u001b[33m,\u001b[39m email\u001b[33m,\u001b[39m \u001b[32m'Pikk 1, Tallinn'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 81 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39merror(\u001b[32m'email'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Enter a valid email address'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 82 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 83 |\u001b[39m }\n \u001b[90m 84 |\u001b[39m\u001b[0m\n\u001b[2m    at /workspaces/ulesane/shop2.ui.spec.ts:81:39\u001b[22m"
+                    }
+                  ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-13T07:54:00.363Z",
+                  "startTime": "2026-10-20T07:40:07.926Z",
                   "annotations": [],
                   "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/workspaces/ulesane/test-results/shop2.ui-UI-18-email-mari--df701-cted-missing-domain-suffix--mobile/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/workspaces/ulesane/test-results/shop2.ui-UI-18-email-mari--df701-cted-missing-domain-suffix--mobile/error-context.md"
+                    },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
                       "path": "/workspaces/ulesane/test-results/shop2.ui-UI-18-email-mari--df701-cted-missing-domain-suffix--mobile/trace.zip"
                     }
-                  ]
+                  ],
+                  "errorLocation": {
+                    "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                    "column": 39,
+                    "line": 81
+                  }
                 }
               ],
-              "status": "expected"
+              "status": "unexpected"
             }
           ],
           "id": "fa0ba1cf6aa7831359c8-74151529ed64a0f77c2f",
@@ -1291,12 +1359,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 277,
+                      "duration": 251,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-10-13T07:53:42.451Z",
+                      "startTime": "2026-10-20T07:39:08.486Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1317,15 +1385,15 @@
                   "projectName": "mobile",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 4,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 313,
+                      "duration": 324,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-10-13T07:53:55.178Z",
+                      "startTime": "2026-10-20T07:39:44.497Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1346,7 +1414,7 @@
             },
             {
               "title": "UI-12 REQ-UI-08 most expensive product is first when sorting high to low",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -1359,24 +1427,58 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 261,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 5263,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('product').first()\nTimeout: 5000ms\n\u001b[32m- Expected substring  - 1\u001b[39m\n\u001b[31m+ Received string     + 6\u001b[39m\n\n\u001b[32m- Monitor 27\"\u001b[39m\n\u001b[31m+\u001b[39m\n\u001b[31m+       Mechanical Keyboard\u001b[39m\n\u001b[31m+       Input\u001b[39m\n\u001b[31m+       89.00 €\u001b[39m\n\u001b[31m+       Buy\u001b[39m\n\u001b[31m+ \u001b[43m    \u001b[49m\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" getByTestId('product').first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('product').first()\u001b[22m\n\u001b[2m    14 × locator resolved to <article data-id=\"3\" class=\"card\" data-testid=\"product\">…</article>\u001b[22m\n\u001b[2m       - unexpected value \"\u001b[22m\n\u001b[2m      Mechanical Keyboard\u001b[22m\n\u001b[2m      Input\u001b[22m\n\u001b[2m      89.00 €\u001b[22m\n\u001b[2m      Buy\u001b[22m\n\u001b[2m    \"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('product').first()\nTimeout: 5000ms\n\u001b[32m- Expected substring  - 1\u001b[39m\n\u001b[31m+ Received string     + 6\u001b[39m\n\n\u001b[32m- Monitor 27\"\u001b[39m\n\u001b[31m+\u001b[39m\n\u001b[31m+       Mechanical Keyboard\u001b[39m\n\u001b[31m+       Input\u001b[39m\n\u001b[31m+       89.00 €\u001b[39m\n\u001b[31m+       Buy\u001b[39m\n\u001b[31m+ \u001b[43m    \u001b[49m\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" getByTestId('product').first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('product').first()\u001b[22m\n\u001b[2m    14 × locator resolved to <article data-id=\"3\" class=\"card\" data-testid=\"product\">…</article>\u001b[22m\n\u001b[2m       - unexpected value \"\u001b[22m\n\u001b[2m      Mechanical Keyboard\u001b[22m\n\u001b[2m      Input\u001b[22m\n\u001b[2m      89.00 €\u001b[22m\n\u001b[2m      Buy\u001b[22m\n\u001b[2m    \"\u001b[22m\n\n    at /workspaces/ulesane/shop2.ui.spec.ts:12:43",
+                        "location": {
+                          "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                          "column": 43,
+                          "line": 12
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 10 |\u001b[39m   test(\u001b[32m'UI-12 REQ-UI-08 most expensive product is first when sorting high to low'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ shop }) \u001b[33m=>\u001b[39m {\n \u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39msortBy(\u001b[32m'Price: high to low'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 12 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mproducts()\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Monitor 27\"'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mprices()\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'249.00 €'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 14 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 15 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                            "column": 43,
+                            "line": 12
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('product').first()\nTimeout: 5000ms\n\u001b[32m- Expected substring  - 1\u001b[39m\n\u001b[31m+ Received string     + 6\u001b[39m\n\n\u001b[32m- Monitor 27\"\u001b[39m\n\u001b[31m+\u001b[39m\n\u001b[31m+       Mechanical Keyboard\u001b[39m\n\u001b[31m+       Input\u001b[39m\n\u001b[31m+       89.00 €\u001b[39m\n\u001b[31m+       Buy\u001b[39m\n\u001b[31m+ \u001b[43m    \u001b[49m\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" getByTestId('product').first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('product').first()\u001b[22m\n\u001b[2m    14 × locator resolved to <article data-id=\"3\" class=\"card\" data-testid=\"product\">…</article>\u001b[22m\n\u001b[2m       - unexpected value \"\u001b[22m\n\u001b[2m      Mechanical Keyboard\u001b[22m\n\u001b[2m      Input\u001b[22m\n\u001b[2m      89.00 €\u001b[22m\n\u001b[2m      Buy\u001b[22m\n\u001b[2m    \"\u001b[22m\n\n\n\u001b[0m \u001b[90m 10 |\u001b[39m   test(\u001b[32m'UI-12 REQ-UI-08 most expensive product is first when sorting high to low'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ shop }) \u001b[33m=>\u001b[39m {\n \u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39msortBy(\u001b[32m'Price: high to low'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 12 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mproducts()\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Monitor 27\"'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mprices()\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'249.00 €'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 14 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 15 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /workspaces/ulesane/shop2.ui.spec.ts:12:43\u001b[22m"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-10-13T07:53:42.753Z",
+                      "startTime": "2026-10-20T07:39:08.764Z",
                       "annotations": [],
                       "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-sorting-UI-12-REQ-947ee-st-when-sorting-high-to-low-ui/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-sorting-UI-12-REQ-947ee-st-when-sorting-high-to-low-ui/error-context.md"
+                        },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
                           "path": "/workspaces/ulesane/test-results/shop2.ui-sorting-UI-12-REQ-947ee-st-when-sorting-high-to-low-ui/trace.zip"
                         }
-                      ]
+                      ],
+                      "errorLocation": {
+                        "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                        "column": 43,
+                        "line": 12
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 },
                 {
                   "timeout": 30000,
@@ -1386,26 +1488,60 @@
                   "projectName": "mobile",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 4,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 352,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 5445,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('product').first()\nTimeout: 5000ms\n\u001b[32m- Expected substring  - 1\u001b[39m\n\u001b[31m+ Received string     + 6\u001b[39m\n\n\u001b[32m- Monitor 27\"\u001b[39m\n\u001b[31m+\u001b[39m\n\u001b[31m+       Mechanical Keyboard\u001b[39m\n\u001b[31m+       Input\u001b[39m\n\u001b[31m+       89.00 €\u001b[39m\n\u001b[31m+       Buy\u001b[39m\n\u001b[31m+ \u001b[43m    \u001b[49m\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" getByTestId('product').first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('product').first()\u001b[22m\n\u001b[2m    14 × locator resolved to <article data-id=\"3\" class=\"card\" data-testid=\"product\">…</article>\u001b[22m\n\u001b[2m       - unexpected value \"\u001b[22m\n\u001b[2m      Mechanical Keyboard\u001b[22m\n\u001b[2m      Input\u001b[22m\n\u001b[2m      89.00 €\u001b[22m\n\u001b[2m      Buy\u001b[22m\n\u001b[2m    \"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('product').first()\nTimeout: 5000ms\n\u001b[32m- Expected substring  - 1\u001b[39m\n\u001b[31m+ Received string     + 6\u001b[39m\n\n\u001b[32m- Monitor 27\"\u001b[39m\n\u001b[31m+\u001b[39m\n\u001b[31m+       Mechanical Keyboard\u001b[39m\n\u001b[31m+       Input\u001b[39m\n\u001b[31m+       89.00 €\u001b[39m\n\u001b[31m+       Buy\u001b[39m\n\u001b[31m+ \u001b[43m    \u001b[49m\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" getByTestId('product').first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('product').first()\u001b[22m\n\u001b[2m    14 × locator resolved to <article data-id=\"3\" class=\"card\" data-testid=\"product\">…</article>\u001b[22m\n\u001b[2m       - unexpected value \"\u001b[22m\n\u001b[2m      Mechanical Keyboard\u001b[22m\n\u001b[2m      Input\u001b[22m\n\u001b[2m      89.00 €\u001b[22m\n\u001b[2m      Buy\u001b[22m\n\u001b[2m    \"\u001b[22m\n\n    at /workspaces/ulesane/shop2.ui.spec.ts:12:43",
+                        "location": {
+                          "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                          "column": 43,
+                          "line": 12
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 10 |\u001b[39m   test(\u001b[32m'UI-12 REQ-UI-08 most expensive product is first when sorting high to low'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ shop }) \u001b[33m=>\u001b[39m {\n \u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39msortBy(\u001b[32m'Price: high to low'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 12 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mproducts()\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Monitor 27\"'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mprices()\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'249.00 €'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 14 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 15 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                            "column": 43,
+                            "line": 12
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('product').first()\nTimeout: 5000ms\n\u001b[32m- Expected substring  - 1\u001b[39m\n\u001b[31m+ Received string     + 6\u001b[39m\n\n\u001b[32m- Monitor 27\"\u001b[39m\n\u001b[31m+\u001b[39m\n\u001b[31m+       Mechanical Keyboard\u001b[39m\n\u001b[31m+       Input\u001b[39m\n\u001b[31m+       89.00 €\u001b[39m\n\u001b[31m+       Buy\u001b[39m\n\u001b[31m+ \u001b[43m    \u001b[49m\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" getByTestId('product').first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('product').first()\u001b[22m\n\u001b[2m    14 × locator resolved to <article data-id=\"3\" class=\"card\" data-testid=\"product\">…</article>\u001b[22m\n\u001b[2m       - unexpected value \"\u001b[22m\n\u001b[2m      Mechanical Keyboard\u001b[22m\n\u001b[2m      Input\u001b[22m\n\u001b[2m      89.00 €\u001b[22m\n\u001b[2m      Buy\u001b[22m\n\u001b[2m    \"\u001b[22m\n\n\n\u001b[0m \u001b[90m 10 |\u001b[39m   test(\u001b[32m'UI-12 REQ-UI-08 most expensive product is first when sorting high to low'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ shop }) \u001b[33m=>\u001b[39m {\n \u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39msortBy(\u001b[32m'Price: high to low'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 12 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mproducts()\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Monitor 27\"'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mprices()\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'249.00 €'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 14 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 15 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /workspaces/ulesane/shop2.ui.spec.ts:12:43\u001b[22m"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-10-13T07:53:55.519Z",
+                      "startTime": "2026-10-20T07:39:44.854Z",
                       "annotations": [],
                       "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-sorting-UI-12-REQ-947ee-st-when-sorting-high-to-low-mobile/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-sorting-UI-12-REQ-947ee-st-when-sorting-high-to-low-mobile/error-context.md"
+                        },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
                           "path": "/workspaces/ulesane/test-results/shop2.ui-sorting-UI-12-REQ-947ee-st-when-sorting-high-to-low-mobile/trace.zip"
                         }
-                      ]
+                      ],
+                      "errorLocation": {
+                        "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                        "column": 43,
+                        "line": 12
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "fa0ba1cf6aa7831359c8-f98942d1e5eddd8eb9fc",
@@ -1434,15 +1570,15 @@
                   "projectName": "ui",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 407,
+                      "duration": 552,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-10-13T07:53:43.043Z",
+                      "startTime": "2026-10-20T07:39:14.640Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1463,15 +1599,15 @@
                   "projectName": "mobile",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 489,
+                      "duration": 588,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-10-13T07:53:55.902Z",
+                      "startTime": "2026-10-20T07:39:51.128Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1492,7 +1628,7 @@
             },
             {
               "title": "UI-14 REQ-UI-09 quantity cannot be less than one",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -1503,26 +1639,60 @@
                   "projectName": "ui",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 406,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 5417,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('spinbutton', { name: 'Quantity for USB-C Hub' })\nExpected: \u001b[32m\"1\"\u001b[39m\nReceived: \u001b[31m\"0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" getByRole('spinbutton', { name: 'Quantity for USB-C Hub' }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('spinbutton', { name: 'Quantity for USB-C Hub' })\u001b[22m\n\u001b[2m    14 × locator resolved to <input value=\"0\" data-qty=\"2\" type=\"number\" aria-label=\"Quantity for USB-C Hub\"/>\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('spinbutton', { name: 'Quantity for USB-C Hub' })\nExpected: \u001b[32m\"1\"\u001b[39m\nReceived: \u001b[31m\"0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" getByRole('spinbutton', { name: 'Quantity for USB-C Hub' }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('spinbutton', { name: 'Quantity for USB-C Hub' })\u001b[22m\n\u001b[2m    14 × locator resolved to <input value=\"0\" data-qty=\"2\" type=\"number\" aria-label=\"Quantity for USB-C Hub\"/>\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n\n    at /workspaces/ulesane/shop2.ui.spec.ts:30:51",
+                        "location": {
+                          "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                          "column": 51,
+                          "line": 30
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 28 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mopenCart()\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39msetQuantity(\u001b[32m'USB-C Hub'\u001b[39m\u001b[33m,\u001b[39m \u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 30 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mquantityInput(\u001b[32m'USB-C Hub'\u001b[39m))\u001b[33m.\u001b[39mtoHaveValue(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 31 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mcartCount())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 32 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 33 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                            "column": 51,
+                            "line": 30
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('spinbutton', { name: 'Quantity for USB-C Hub' })\nExpected: \u001b[32m\"1\"\u001b[39m\nReceived: \u001b[31m\"0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" getByRole('spinbutton', { name: 'Quantity for USB-C Hub' }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('spinbutton', { name: 'Quantity for USB-C Hub' })\u001b[22m\n\u001b[2m    14 × locator resolved to <input value=\"0\" data-qty=\"2\" type=\"number\" aria-label=\"Quantity for USB-C Hub\"/>\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 28 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mopenCart()\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39msetQuantity(\u001b[32m'USB-C Hub'\u001b[39m\u001b[33m,\u001b[39m \u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 30 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mquantityInput(\u001b[32m'USB-C Hub'\u001b[39m))\u001b[33m.\u001b[39mtoHaveValue(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 31 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mcartCount())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 32 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 33 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /workspaces/ulesane/shop2.ui.spec.ts:30:51\u001b[22m"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-10-13T07:53:43.476Z",
+                      "startTime": "2026-10-20T07:39:15.368Z",
                       "annotations": [],
                       "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-quantity-UI-14-RE-6e8bf-ity-cannot-be-less-than-one-ui/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-quantity-UI-14-RE-6e8bf-ity-cannot-be-less-than-one-ui/error-context.md"
+                        },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
                           "path": "/workspaces/ulesane/test-results/shop2.ui-quantity-UI-14-RE-6e8bf-ity-cannot-be-less-than-one-ui/trace.zip"
                         }
-                      ]
+                      ],
+                      "errorLocation": {
+                        "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                        "column": 51,
+                        "line": 30
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 },
                 {
                   "timeout": 30000,
@@ -1532,26 +1702,60 @@
                   "projectName": "mobile",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 437,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 5477,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('spinbutton', { name: 'Quantity for USB-C Hub' })\nExpected: \u001b[32m\"1\"\u001b[39m\nReceived: \u001b[31m\"0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" getByRole('spinbutton', { name: 'Quantity for USB-C Hub' }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('spinbutton', { name: 'Quantity for USB-C Hub' })\u001b[22m\n\u001b[2m    14 × locator resolved to <input value=\"0\" data-qty=\"2\" type=\"number\" aria-label=\"Quantity for USB-C Hub\"/>\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('spinbutton', { name: 'Quantity for USB-C Hub' })\nExpected: \u001b[32m\"1\"\u001b[39m\nReceived: \u001b[31m\"0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" getByRole('spinbutton', { name: 'Quantity for USB-C Hub' }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('spinbutton', { name: 'Quantity for USB-C Hub' })\u001b[22m\n\u001b[2m    14 × locator resolved to <input value=\"0\" data-qty=\"2\" type=\"number\" aria-label=\"Quantity for USB-C Hub\"/>\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n\n    at /workspaces/ulesane/shop2.ui.spec.ts:30:51",
+                        "location": {
+                          "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                          "column": 51,
+                          "line": 30
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 28 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mopenCart()\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39msetQuantity(\u001b[32m'USB-C Hub'\u001b[39m\u001b[33m,\u001b[39m \u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 30 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mquantityInput(\u001b[32m'USB-C Hub'\u001b[39m))\u001b[33m.\u001b[39mtoHaveValue(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 31 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mcartCount())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 32 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 33 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                            "column": 51,
+                            "line": 30
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('spinbutton', { name: 'Quantity for USB-C Hub' })\nExpected: \u001b[32m\"1\"\u001b[39m\nReceived: \u001b[31m\"0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" getByRole('spinbutton', { name: 'Quantity for USB-C Hub' }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('spinbutton', { name: 'Quantity for USB-C Hub' })\u001b[22m\n\u001b[2m    14 × locator resolved to <input value=\"0\" data-qty=\"2\" type=\"number\" aria-label=\"Quantity for USB-C Hub\"/>\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 28 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mopenCart()\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39msetQuantity(\u001b[32m'USB-C Hub'\u001b[39m\u001b[33m,\u001b[39m \u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 30 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mquantityInput(\u001b[32m'USB-C Hub'\u001b[39m))\u001b[33m.\u001b[39mtoHaveValue(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 31 |\u001b[39m     \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mcartCount())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 32 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 33 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /workspaces/ulesane/shop2.ui.spec.ts:30:51\u001b[22m"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-10-13T07:53:56.421Z",
+                      "startTime": "2026-10-20T07:39:51.883Z",
                       "annotations": [],
                       "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-quantity-UI-14-RE-6e8bf-ity-cannot-be-less-than-one-mobile/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-quantity-UI-14-RE-6e8bf-ity-cannot-be-less-than-one-mobile/error-context.md"
+                        },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
                           "path": "/workspaces/ulesane/test-results/shop2.ui-quantity-UI-14-RE-6e8bf-ity-cannot-be-less-than-one-mobile/trace.zip"
                         }
-                      ]
+                      ],
+                      "errorLocation": {
+                        "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                        "column": 51,
+                        "line": 30
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "fa0ba1cf6aa7831359c8-6606485a427014b8cab8",
@@ -1580,15 +1784,15 @@
                   "projectName": "ui",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 434,
+                      "duration": 556,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-10-13T07:53:43.910Z",
+                      "startTime": "2026-10-20T07:39:21.388Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1609,15 +1813,15 @@
                   "projectName": "mobile",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 6,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 603,
+                      "duration": 577,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-10-13T07:53:56.890Z",
+                      "startTime": "2026-10-20T07:39:58.058Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1638,7 +1842,7 @@
             },
             {
               "title": "UI-16 REQ-UI-10 SAVE10 discounts the whole basket",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -1649,36 +1853,80 @@
                   "projectName": "ui",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 427,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 5498,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('cart-discount')\nExpected: \u001b[32m\"−\u001b[7m6.35\u001b[27m €\"\u001b[39m\nReceived: \u001b[31m\"−\u001b[7m3.90\u001b[27m €\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('cart-discount') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('cart-discount')\u001b[22m\n\u001b[2m    14 × locator resolved to <td data-testid=\"cart-discount\">−3.90 €</td>\u001b[22m\n\u001b[2m       - unexpected value \"−3.90 €\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('cart-discount')\nExpected: \u001b[32m\"−\u001b[7m6.35\u001b[27m €\"\u001b[39m\nReceived: \u001b[31m\"−\u001b[7m3.90\u001b[27m €\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('cart-discount') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('cart-discount')\u001b[22m\n\u001b[2m    14 × locator resolved to <td data-testid=\"cart-discount\">−3.90 €</td>\u001b[22m\n\u001b[2m       - unexpected value \"−3.90 €\"\u001b[22m\n\n    at /workspaces/ulesane/shop2.ui.spec.ts:54:41\n    at /workspaces/ulesane/shop2.ui.spec.ts:52:5",
+                        "location": {
+                          "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                          "column": 41,
+                          "line": 54
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 52 |\u001b[39m     \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'apply SAVE10'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 53 |\u001b[39m       \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mapplyDiscount(\u001b[32m'SAVE10'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m       \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mcartDiscount())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'−6.35 €'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m       \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mcartTotal())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'57.15 €'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 56 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                            "column": 41,
+                            "line": 54
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('cart-discount')\nExpected: \u001b[32m\"−\u001b[7m6.35\u001b[27m €\"\u001b[39m\nReceived: \u001b[31m\"−\u001b[7m3.90\u001b[27m €\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('cart-discount') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('cart-discount')\u001b[22m\n\u001b[2m    14 × locator resolved to <td data-testid=\"cart-discount\">−3.90 €</td>\u001b[22m\n\u001b[2m       - unexpected value \"−3.90 €\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 52 |\u001b[39m     \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'apply SAVE10'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 53 |\u001b[39m       \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mapplyDiscount(\u001b[32m'SAVE10'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m       \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mcartDiscount())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'−6.35 €'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m       \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mcartTotal())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'57.15 €'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 56 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /workspaces/ulesane/shop2.ui.spec.ts:54:41\u001b[22m\n\u001b[2m    at /workspaces/ulesane/shop2.ui.spec.ts:52:5\u001b[22m"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
                       "steps": [
                         {
                           "title": "add two different products",
-                          "duration": 175
+                          "duration": 181
                         },
                         {
                           "title": "apply SAVE10",
-                          "duration": 83
+                          "duration": 5092,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('cart-discount')\nExpected: \u001b[32m\"−\u001b[7m6.35\u001b[27m €\"\u001b[39m\nReceived: \u001b[31m\"−\u001b[7m3.90\u001b[27m €\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('cart-discount') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('cart-discount')\u001b[22m\n\u001b[2m    14 × locator resolved to <td data-testid=\"cart-discount\">−3.90 €</td>\u001b[22m\n\u001b[2m       - unexpected value \"−3.90 €\"\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('cart-discount')\nExpected: \u001b[32m\"−\u001b[7m6.35\u001b[27m €\"\u001b[39m\nReceived: \u001b[31m\"−\u001b[7m3.90\u001b[27m €\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('cart-discount') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('cart-discount')\u001b[22m\n\u001b[2m    14 × locator resolved to <td data-testid=\"cart-discount\">−3.90 €</td>\u001b[22m\n\u001b[2m       - unexpected value \"−3.90 €\"\u001b[22m\n\n    at /workspaces/ulesane/shop2.ui.spec.ts:54:41\n    at /workspaces/ulesane/shop2.ui.spec.ts:52:5",
+                            "location": {
+                              "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                              "column": 41,
+                              "line": 54
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 52 |\u001b[39m     \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'apply SAVE10'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 53 |\u001b[39m       \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mapplyDiscount(\u001b[32m'SAVE10'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m       \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mcartDiscount())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'−6.35 €'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m       \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mcartTotal())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'57.15 €'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 56 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
+                          }
                         }
                       ],
-                      "startTime": "2026-10-13T07:53:44.370Z",
+                      "startTime": "2026-10-20T07:39:22.111Z",
                       "annotations": [],
                       "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-discount-codes-UI-af505--discounts-the-whole-basket-ui/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-discount-codes-UI-af505--discounts-the-whole-basket-ui/error-context.md"
+                        },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
                           "path": "/workspaces/ulesane/test-results/shop2.ui-discount-codes-UI-af505--discounts-the-whole-basket-ui/trace.zip"
                         }
-                      ]
+                      ],
+                      "errorLocation": {
+                        "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                        "column": 41,
+                        "line": 54
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 },
                 {
                   "timeout": 30000,
@@ -1688,36 +1936,80 @@
                   "projectName": "mobile",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 6,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 545,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 5611,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('cart-discount')\nExpected: \u001b[32m\"−\u001b[7m6.35\u001b[27m €\"\u001b[39m\nReceived: \u001b[31m\"−\u001b[7m3.90\u001b[27m €\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('cart-discount') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('cart-discount')\u001b[22m\n\u001b[2m    14 × locator resolved to <td data-testid=\"cart-discount\">−3.90 €</td>\u001b[22m\n\u001b[2m       - unexpected value \"−3.90 €\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('cart-discount')\nExpected: \u001b[32m\"−\u001b[7m6.35\u001b[27m €\"\u001b[39m\nReceived: \u001b[31m\"−\u001b[7m3.90\u001b[27m €\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('cart-discount') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('cart-discount')\u001b[22m\n\u001b[2m    14 × locator resolved to <td data-testid=\"cart-discount\">−3.90 €</td>\u001b[22m\n\u001b[2m       - unexpected value \"−3.90 €\"\u001b[22m\n\n    at /workspaces/ulesane/shop2.ui.spec.ts:54:41\n    at /workspaces/ulesane/shop2.ui.spec.ts:52:5",
+                        "location": {
+                          "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                          "column": 41,
+                          "line": 54
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 52 |\u001b[39m     \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'apply SAVE10'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 53 |\u001b[39m       \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mapplyDiscount(\u001b[32m'SAVE10'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m       \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mcartDiscount())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'−6.35 €'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m       \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mcartTotal())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'57.15 €'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 56 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                            "column": 41,
+                            "line": 54
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('cart-discount')\nExpected: \u001b[32m\"−\u001b[7m6.35\u001b[27m €\"\u001b[39m\nReceived: \u001b[31m\"−\u001b[7m3.90\u001b[27m €\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('cart-discount') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('cart-discount')\u001b[22m\n\u001b[2m    14 × locator resolved to <td data-testid=\"cart-discount\">−3.90 €</td>\u001b[22m\n\u001b[2m       - unexpected value \"−3.90 €\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 52 |\u001b[39m     \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'apply SAVE10'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 53 |\u001b[39m       \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mapplyDiscount(\u001b[32m'SAVE10'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m       \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mcartDiscount())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'−6.35 €'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m       \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mcartTotal())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'57.15 €'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 56 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /workspaces/ulesane/shop2.ui.spec.ts:54:41\u001b[22m\n\u001b[2m    at /workspaces/ulesane/shop2.ui.spec.ts:52:5\u001b[22m"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
                       "steps": [
                         {
                           "title": "add two different products",
-                          "duration": 170
+                          "duration": 182
                         },
                         {
                           "title": "apply SAVE10",
-                          "duration": 95
+                          "duration": 5113,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('cart-discount')\nExpected: \u001b[32m\"−\u001b[7m6.35\u001b[27m €\"\u001b[39m\nReceived: \u001b[31m\"−\u001b[7m3.90\u001b[27m €\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('cart-discount') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('cart-discount')\u001b[22m\n\u001b[2m    14 × locator resolved to <td data-testid=\"cart-discount\">−3.90 €</td>\u001b[22m\n\u001b[2m       - unexpected value \"−3.90 €\"\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('cart-discount')\nExpected: \u001b[32m\"−\u001b[7m6.35\u001b[27m €\"\u001b[39m\nReceived: \u001b[31m\"−\u001b[7m3.90\u001b[27m €\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('cart-discount') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('cart-discount')\u001b[22m\n\u001b[2m    14 × locator resolved to <td data-testid=\"cart-discount\">−3.90 €</td>\u001b[22m\n\u001b[2m       - unexpected value \"−3.90 €\"\u001b[22m\n\n    at /workspaces/ulesane/shop2.ui.spec.ts:54:41\n    at /workspaces/ulesane/shop2.ui.spec.ts:52:5",
+                            "location": {
+                              "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                              "column": 41,
+                              "line": 54
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 52 |\u001b[39m     \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'apply SAVE10'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 53 |\u001b[39m       \u001b[36mawait\u001b[39m shop\u001b[33m.\u001b[39mapplyDiscount(\u001b[32m'SAVE10'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m       \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mcartDiscount())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'−6.35 €'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m       \u001b[36mawait\u001b[39m expect(shop\u001b[33m.\u001b[39mcartTotal())\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'57.15 €'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 56 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
+                          }
                         }
                       ],
-                      "startTime": "2026-10-13T07:53:57.529Z",
+                      "startTime": "2026-10-20T07:39:58.826Z",
                       "annotations": [],
                       "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-discount-codes-UI-af505--discounts-the-whole-basket-mobile/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/workspaces/ulesane/test-results/shop2.ui-discount-codes-UI-af505--discounts-the-whole-basket-mobile/error-context.md"
+                        },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
                           "path": "/workspaces/ulesane/test-results/shop2.ui-discount-codes-UI-af505--discounts-the-whole-basket-mobile/trace.zip"
                         }
-                      ]
+                      ],
+                      "errorLocation": {
+                        "file": "/workspaces/ulesane/shop2.ui.spec.ts",
+                        "column": 41,
+                        "line": 54
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "fa0ba1cf6aa7831359c8-bd1085f389b4e89bb62d",
@@ -1738,15 +2030,15 @@
                   "projectName": "ui",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 413,
+                      "duration": 524,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-10-13T07:53:44.820Z",
+                      "startTime": "2026-10-20T07:39:28.158Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1767,15 +2059,15 @@
                   "projectName": "mobile",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 7,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 453,
+                      "duration": 589,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-10-13T07:53:58.107Z",
+                      "startTime": "2026-10-20T07:40:05.029Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1801,11 +2093,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-13T07:53:34.174Z",
-    "duration": 26858.490999999998,
-    "expected": 44,
+    "startTime": "2026-10-20T07:38:49.639Z",
+    "duration": 84109.435,
+    "expected": 36,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 8,
     "flaky": 0
   }
 }
